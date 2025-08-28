@@ -21,3 +21,19 @@ print("Age: ",age)
 print("Email: ",email)
 print("Phone number: ",phone_number)
 print("Favorite Hobby: ",hobby)
+
+
+
+
+def weather_suggestion(temp):
+    if temp >35:
+        print("very hot,stay indoor")
+    elif  25 <= temp <=35:
+        print("nice weather")
+    elif  20<= temp <=24:
+        print("quite cool")
+    else #temp <20
+        print("cool,wear jacket")
+temps = [38,30,22,18]
+for t in temps
+    print(f"Temperature{t}:{weather_suggestion(t)}")
